@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PK | Creative Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="day">
+
+  <!-- CANVAS BACKGROUND -->
+  <canvas id="tank"></canvas>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo" data-page="home">PK</div>
+
+    <ul>
+      <li data-page="portfolio">Portfolio</li>
+      <li data-page="contact">Contact</li>
+      <li id="themeToggle">🌙</li>
+    </ul>
+  </nav>
+
+  <!-- PAGES -->
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="page active">
+      <h1>Hi, I’m <span class="name">Prashant Kumar</span></h1>
+
+      <h2 class="changing-text"></h2>
+
+      <p class="description">
+        I design and develop calm, modern digital experiences by blending
+        full-stack engineering, UI/UX design, and visual storytelling.
+      </p>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="page">
+      <h1>My Work</h1>
+
+      <div class="cards">
+        <div class="card">UI / UX Case Studies</div>
+        <div class="card">Full Stack Web Apps</div>
+        <div class="card">Graphics & Branding</div>
+        <div class="card">Creative Experiments</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="page">
+      <h1>Let’s Connect</h1>
+      <p>Open for freelance, collaborations & ideas.</p>
+
+      <a href="mailto:prashant.kumar.13080@gmail.com" class="email">
+        prashant.kumar.13080@gmail.com
+      </a>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
